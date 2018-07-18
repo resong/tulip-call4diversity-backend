@@ -6,7 +6,7 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: bridge-projects-firebase
+  application_name: tulip-call4diversity-backend-app
   default_ec2_keyname: null
   default_platform: arn:aws:elasticbeanstalk:us-east-2::platform/Node.js running on
     64bit Amazon Linux/4.4.6

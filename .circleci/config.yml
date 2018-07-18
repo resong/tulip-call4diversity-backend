@@ -34,7 +34,7 @@ jobs:
       - persist_to_workspace:
           root: /home/circleci/project
           paths:
-            - *
+            - ./*
   deploy:
     <<: *set-working-directory
     docker:
