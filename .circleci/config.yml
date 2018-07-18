@@ -48,7 +48,7 @@ jobs:
           name: Install awscli
           command: sudo pip install awscli
       - run:
-          name: Deploy to S3 Bucket
+          name: Deploy to EB
           command: .circleci/scripts/deploy_backend.sh bridge-projects-firebase tulip-call4diversity tulip-call4diversity-backend-env
 workflows:
   version: 2
