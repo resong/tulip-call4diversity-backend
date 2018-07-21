@@ -8,7 +8,15 @@
     "dev": "nodemon src/index.js",
     "test:watch": "jest --watch"
   },
-  "author": "",
+  "authors": 
+    [
+      "Robyn Dalgleish", 
+      "Cheyenne Arrowsmith",
+      "Rebecca Song",
+      "Tyn Soltys",
+      "Quinn Anderson",
+      "M.K. Reyes"
+    ],
   "devDependencies": {
     "jest": "^22.4.4",
     "nodemon": "^1.17.5",
