@@ -8,21 +8,21 @@
     "dev": "nodemon src/index.js",
     "test:watch": "jest --watch"
   },
-  "authors": 
-    [
-      "Robyn Dalgleish", 
-      "Cheyenne Arrowsmith",
-      "Rebecca Song",
-      "Tyn Soltys",
-      "Quinn Anderson",
-      "M.K. Reyes"
-    ],
+  "authors": [
+    "Robyn Dalgleish",
+    "Cheyenne Arrowsmith",
+    "Rebecca Song",
+    "Tyn Soltys",
+    "Quinn Anderson",
+    "M.K. Reyes"
+  ],
   "devDependencies": {
     "jest": "^22.4.4",
     "nodemon": "^1.17.5",
     "supertest": "^3.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "firebase-admin": "^5.12.1",
