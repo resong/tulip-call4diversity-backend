@@ -20,6 +20,7 @@ app.use(
   })
 );
 app.use(morgan("tiny", { stream: logger.stream }));
+app.use("/", express.static(__dirname + "/"));
 app.use("/", router);
 app.use(errorHandler);
 
