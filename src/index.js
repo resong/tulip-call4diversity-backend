@@ -16,10 +16,11 @@ logger.info("🤖 Initializing middleware");
 
 app.use(
   cors({
-    origin: "http://tulip-call4diversity-frontend.bridgeschoolapp.io/"
+    origin: "http://tulip-call4diversity-frontend.bridgeschoolapp.io"
   })
 );
 app.use(morgan("tiny", { stream: logger.stream }));
+app.use("/", express.static(__dirname + "/"));
 app.use("/", router);
 app.use(errorHandler);
 
